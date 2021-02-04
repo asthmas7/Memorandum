@@ -1,0 +1,7 @@
+##查看当前鼠标速度值
+
+defaults read -g com.apple.mouse.scaling
+
+##修改鼠标移动值（默认3，建议7-10）
+
+defaults write -g com.apple.mouse.scaling NUMBER
